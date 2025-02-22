@@ -88,11 +88,7 @@
 			<version>3.1.1</version>
 		</dependency>
 
-		<dependency>
-			<groupId>baiching</groupId>
-			<artifactId>signUpAndSignIn</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>
