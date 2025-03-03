@@ -3,15 +3,15 @@ package baiching.signUpAndSignIn.security.jwt;
 import baiching.signUpAndSignIn.security.services.UserDetailsImpl;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
+import io.jsonwebtoken.security.Keys;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
-import java.util.Date;
 import java.security.Key;
-import io.jsonwebtoken.security.Keys;
+import java.util.Date;
 
 @Component
 public class JwtUtils {
